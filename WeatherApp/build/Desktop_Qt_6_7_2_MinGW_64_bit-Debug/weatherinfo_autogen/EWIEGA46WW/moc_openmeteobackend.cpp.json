@@ -1,0 +1,34 @@
+{
+    "classes": [
+        {
+            "className": "OpenMeteoBackend",
+            "object": true,
+            "qualifiedClassName": "OpenMeteoBackend",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        },
+                        {
+                            "name": "location",
+                            "type": "LocationInfo"
+                        }
+                    ],
+                    "name": "handleWeatherForecastReply",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "ProviderBackend"
+                }
+            ]
+        }
+    ],
+    "inputFile": "openmeteobackend.h",
+    "outputRevision": 68
+}

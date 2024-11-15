@@ -1,0 +1,8 @@
+module Weather
+typeinfo weatherinfo.qmltypes
+prefer :/qt/qml/Weather/
+BigForecastIcon 1.0 BigForecastIcon.qml
+ForecastIcon 1.0 ForecastIcon.qml
+WeatherIcon 1.0 WeatherIcon.qml
+WeatherInfo 1.0 WeatherInfo.qml
+

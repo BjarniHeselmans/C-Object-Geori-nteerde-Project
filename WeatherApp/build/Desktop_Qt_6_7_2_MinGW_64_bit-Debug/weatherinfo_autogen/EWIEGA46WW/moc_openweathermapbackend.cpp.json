@@ -1,0 +1,53 @@
+{
+    "classes": [
+        {
+            "className": "OpenWeatherMapBackend",
+            "object": true,
+            "qualifiedClassName": "OpenWeatherMapBackend",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        },
+                        {
+                            "name": "coordinate",
+                            "type": "QGeoCoordinate"
+                        }
+                    ],
+                    "name": "handleCurrentWeatherReply",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        },
+                        {
+                            "name": "location",
+                            "type": "LocationInfo"
+                        },
+                        {
+                            "name": "currentWeather",
+                            "type": "WeatherInfo"
+                        }
+                    ],
+                    "name": "handleWeatherForecastReply",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "ProviderBackend"
+                }
+            ]
+        }
+    ],
+    "inputFile": "openweathermapbackend.h",
+    "outputRevision": 68
+}

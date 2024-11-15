@@ -1,0 +1,39 @@
+{
+    "classes": [
+        {
+            "className": "ProviderBackend",
+            "object": true,
+            "qualifiedClassName": "ProviderBackend",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "location",
+                            "type": "LocationInfo"
+                        },
+                        {
+                            "name": "weatherDetails",
+                            "type": "QList<WeatherInfo>"
+                        }
+                    ],
+                    "name": "weatherInformation",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "providerbackend.h",
+    "outputRevision": 68
+}

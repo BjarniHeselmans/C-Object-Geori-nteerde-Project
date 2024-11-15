@@ -1,0 +1,30 @@
+# ninja log v6
+20	237	7533764823990619	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	83e048b863b6eecd
+210	1743	7533751012122010	LoginApp_autogen/timestamp	257990b5a7d2a7d9
+1792	4958	7533751014359345	CMakeFiles/LoginApp.dir/secdialog.cpp.obj	cc23b8d6c1292ed3
+210	1743	7533751012122010	LoginApp_autogen/mocs_compilation.cpp	257990b5a7d2a7d9
+210	1743	7533751012122010	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/LoginApp_autogen/timestamp	257990b5a7d2a7d9
+210	1743	7533751012122010	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/LoginApp_autogen/mocs_compilation.cpp	257990b5a7d2a7d9
+1763	4863	7533751014067323	CMakeFiles/LoginApp.dir/LoginApp_autogen/mocs_compilation.cpp.obj	8446273b698d953f
+1782	4981	7533751014251710	CMakeFiles/LoginApp.dir/mainwindow.cpp.obj	f098cb6cc4d15f66
+1773	5041	7533751014173746	CMakeFiles/LoginApp.dir/main.cpp.obj	63d6f4f93bf0d01c
+5042	5497	7533751046845529	LoginApp.exe	578755d20a516b36
+14	176	7533765449160362	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	83e048b863b6eecd
+190	1349	7533765461256510	LoginApp_autogen/timestamp	257990b5a7d2a7d9
+190	1349	7533765461256510	LoginApp_autogen/mocs_compilation.cpp	257990b5a7d2a7d9
+190	1349	7533765461256510	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/LoginApp_autogen/timestamp	257990b5a7d2a7d9
+190	1349	7533765461256510	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/LoginApp_autogen/mocs_compilation.cpp	257990b5a7d2a7d9
+1371	4016	7533765462725386	CMakeFiles/LoginApp.dir/secdialog.cpp.obj	cc23b8d6c1292ed3
+1357	4026	7533765462596245	CMakeFiles/LoginApp.dir/main.cpp.obj	63d6f4f93bf0d01c
+1351	4032	7533765462528646	CMakeFiles/LoginApp.dir/LoginApp_autogen/mocs_compilation.cpp.obj	8446273b698d953f
+1364	4505	7533765462662485	CMakeFiles/LoginApp.dir/mainwindow.cpp.obj	f098cb6cc4d15f66
+4506	4872	7533765494084840	LoginApp.exe	578755d20a516b36
+18	216	7533771970053549	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	83e048b863b6eecd
+235	878	7533771972220004	LoginApp_autogen/timestamp	257990b5a7d2a7d9
+235	878	7533771972220004	LoginApp_autogen/mocs_compilation.cpp	257990b5a7d2a7d9
+235	878	7533771972220004	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/LoginApp_autogen/timestamp	257990b5a7d2a7d9
+235	878	7533771972220004	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/LoginApp_autogen/mocs_compilation.cpp	257990b5a7d2a7d9
+889	3759	7533771978742754	CMakeFiles/LoginApp.dir/secdialog.cpp.obj	cc23b8d6c1292ed3
+880	4079	7533771978657476	CMakeFiles/LoginApp.dir/mainwindow.cpp.obj	f098cb6cc4d15f66
+4079	4461	7533772010642201	LoginApp.exe	578755d20a516b36
+15	174	7533774540093032	C:/Users/Bjarni Heselmans/Desktop/Cursussen/2024-2025/C++/LoginApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	83e048b863b6eecd

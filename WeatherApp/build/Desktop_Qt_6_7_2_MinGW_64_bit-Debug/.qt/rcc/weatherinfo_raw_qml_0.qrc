@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="/qt/qml/Weather/">
+    <file alias="BigForecastIcon.qml">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/BigForecastIcon.qml</file>
+    <file alias="ForecastIcon.qml">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/ForecastIcon.qml</file>
+    <file alias="WeatherIcon.qml">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/WeatherIcon.qml</file>
+    <file alias="WeatherInfo.qml">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/WeatherInfo.qml</file>
+    <file alias="icons/weather-few-clouds.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-few-clouds.svg</file>
+    <file alias="icons/weather-fog.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-fog.svg</file>
+    <file alias="icons/weather-haze.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-haze.svg</file>
+    <file alias="icons/weather-icy.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-icy.svg</file>
+    <file alias="icons/weather-overcast.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-overcast.svg</file>
+    <file alias="icons/weather-showers.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-showers.svg</file>
+    <file alias="icons/weather-sleet.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-sleet.svg</file>
+    <file alias="icons/weather-snow.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-snow.svg</file>
+    <file alias="icons/weather-storm.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-storm.svg</file>
+    <file alias="icons/weather-sunny-very-few-clouds.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-sunny-very-few-clouds.svg</file>
+    <file alias="icons/weather-sunny.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-sunny.svg</file>
+    <file alias="icons/weather-thundershower.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-thundershower.svg</file>
+    <file alias="icons/weather-showers-scattered.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/weather-showers-scattered.svg</file>
+    <file alias="icons/waypoint.svg">C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/icons/waypoint.svg</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-fa1f2e363b7a75cc9385.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "weatherinfo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-298089a62890fca61785.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-289cb77c0e8ac278c056.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-e6c08f42cf82c92b8541.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-334b0983da2ac991f9fb.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weatherinfo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weatherinfo-Debug-6cc10c1de137d1cd84a5.json",
+					"name" : "weatherinfo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weatherinfo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weatherinfo_autogen-Debug-48b47b76ad3f85a99ff5.json",
+					"name" : "weatherinfo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weatherinfo_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weatherinfo_autogen_timestamp_deps-Debug-fa7d85ba2d189928b1c6.json",
+					"name" : "weatherinfo_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weatherinfo_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weatherinfo_qmlimportscan-Debug-37597e4c3666a592e358.json",
+					"name" : "weatherinfo_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weatherinfo_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weatherinfo_qmllint-Debug-75bff1b9614126e8564f.json",
+					"name" : "weatherinfo_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weatherinfo_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weatherinfo_qmllint_json-Debug-45b22bd3777c1bb5dc09.json",
+					"name" : "weatherinfo_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weatherinfo_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weatherinfo_qmllint_module-Debug-6ca625ad39beabb37608.json",
+					"name" : "weatherinfo_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weatherinfo_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weatherinfo_qmltyperegistration-Debug-3df02a6578dfd80b2f0f.json",
+					"name" : "weatherinfo_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weatherinfo_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weatherinfo_tooling-Debug-596494c7ff8b0b2b3338.json",
+					"name" : "weatherinfo_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "C:/Qt/Examples/Qt-6.7.2/positioning/weatherinfo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

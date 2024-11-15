@@ -1,0 +1,458 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "anonymous"
+                    }
+                ],
+                "className": "WeatherData",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "dayOfWeek",
+                        "notify": "dataChanged",
+                        "read": "dayOfWeek",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setDayOfWeek"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "weatherIcon",
+                        "notify": "dataChanged",
+                        "read": "weatherIcon",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setWeatherIcon"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "weatherDescription",
+                        "notify": "dataChanged",
+                        "read": "weatherDescription",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setWeatherDescription"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "temperature",
+                        "notify": "dataChanged",
+                        "read": "temperature",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setTemperature"
+                    }
+                ],
+                "qualifiedClassName": "WeatherData",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "dataChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "AppModel",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "ready",
+                        "notify": "readyChanged",
+                        "read": "ready",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "hasSource",
+                        "notify": "readyChanged",
+                        "read": "hasSource",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "hasValidCity",
+                        "notify": "cityChanged",
+                        "read": "hasValidCity",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "hasValidWeather",
+                        "notify": "weatherChanged",
+                        "read": "hasValidWeather",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "useGps",
+                        "notify": "useGpsChanged",
+                        "read": "useGps",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setUseGps"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "name": "city",
+                        "notify": "cityChanged",
+                        "read": "city",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setCity"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "name": "weather",
+                        "notify": "weatherChanged",
+                        "read": "weather",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "WeatherData*",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "name": "forecast",
+                        "notify": "weatherChanged",
+                        "read": "forecast",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QQmlListProperty<WeatherData>",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "AppModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "readyChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "useGpsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "cityChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "weatherChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "refreshWeather",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "gpsPos",
+                                "type": "QGeoPositionInfo"
+                            }
+                        ],
+                        "name": "positionUpdated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "e",
+                                "type": "QGeoPositionInfoSource::Error"
+                            }
+                        ],
+                        "name": "positionError",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "location",
+                                "type": "LocationInfo"
+                            },
+                            {
+                                "name": "weatherDetails",
+                                "type": "QList<WeatherInfo>"
+                            }
+                        ],
+                        "name": "handleWeatherData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "switchToNextBackend",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "appmodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "OpenMeteoBackend",
+                "object": true,
+                "qualifiedClassName": "OpenMeteoBackend",
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "reply",
+                                "type": "QNetworkReply*"
+                            },
+                            {
+                                "name": "location",
+                                "type": "LocationInfo"
+                            }
+                        ],
+                        "name": "handleWeatherForecastReply",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "ProviderBackend"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "openmeteobackend.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "OpenWeatherMapBackend",
+                "object": true,
+                "qualifiedClassName": "OpenWeatherMapBackend",
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "reply",
+                                "type": "QNetworkReply*"
+                            },
+                            {
+                                "name": "coordinate",
+                                "type": "QGeoCoordinate"
+                            }
+                        ],
+                        "name": "handleCurrentWeatherReply",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "reply",
+                                "type": "QNetworkReply*"
+                            },
+                            {
+                                "name": "location",
+                                "type": "LocationInfo"
+                            },
+                            {
+                                "name": "currentWeather",
+                                "type": "WeatherInfo"
+                            }
+                        ],
+                        "name": "handleWeatherForecastReply",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "ProviderBackend"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "openweathermapbackend.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "ProviderBackend",
+                "object": true,
+                "qualifiedClassName": "ProviderBackend",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "location",
+                                "type": "LocationInfo"
+                            },
+                            {
+                                "name": "weatherDetails",
+                                "type": "QList<WeatherInfo>"
+                            }
+                        ],
+                        "name": "weatherInformation",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "errorOccurred",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "providerbackend.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "WeatherApiBackend",
+                "object": true,
+                "qualifiedClassName": "WeatherApiBackend",
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "reply",
+                                "type": "QNetworkReply*"
+                            },
+                            {
+                                "name": "coordinate",
+                                "type": "QGeoCoordinate"
+                            }
+                        ],
+                        "name": "handleWeatherForecastReply",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "ProviderBackend"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "weatherapibackend.h",
+        "outputRevision": 68
+    }
+]
