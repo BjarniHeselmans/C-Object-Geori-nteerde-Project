@@ -4,6 +4,7 @@
 Met deze code ben ik begonnen in het QT application schrijven:
 
 Dit is een simpele code die een applicatie opent.
+![BartjuhhPage](image-4.png)
 In de code kan je een simpele lijn code projecteren in deze applicatie.
 De applicatie die geopend word kan je van naam verranderen.
 
@@ -13,9 +14,14 @@ Met deze code heb ik me verdiept in het application schrijven:
 Dit is een code die een login page application genereerd.
 In de code kan je de outputs van elke login poging aanpassen en afbeeldingen toevoegen.
 De applicatie die eerst geopend word is de login page.
+![LoginPage](image-1.png)
+
 Deze pagina is zelf customizable via QT-Designer.
 Indien er een succesvolle login plaats vind opent zich een venster ter confirmation van de login.
+![LoginConfirmation](image-2.png)
+
 Vervolgens klik je op "OK" en word je naar nog een applicatie venster verwezen waar je zelf nog van alles kan in toevoegen.
+![DialogPage](image-3.png)
 
 ## WheaterApp
 Met dit project heb ik de applicatie configuratie einden bereikt voor mijzelf.
@@ -25,3 +31,5 @@ Deze waardes zijn "C°" neerslag bewolking etc.
 Ik heb ook een functie aangemaakt voor je eigen locatie te kunnen achterhalen via "geolocatie".
 
 Indien je een anderre stad zou willen zien kwa het komende weer klik je boven aan op het locatie icoontje.
+
+![WheaterAppinfo](image.png)
